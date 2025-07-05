@@ -1,0 +1,9 @@
+streamlit
+streamlit_tags
+streamlit-authenticator
+streamlit-option-menu
+extra-streamlit-components
+google-generativeai
+python-dotenv
+pandas
+bcrypt
