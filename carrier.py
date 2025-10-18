@@ -50,7 +50,7 @@ def show_carrier():
             # Function to generate career guidance response
             def get_carrier_guidence(prompt):
                 try:
-                    model = genai.GenerativeModel("gemini-1.5-flash")
+                    model = genai.GenerativeModel("gemini-2.5-flash")
                     response = model.generate_content(prompt)
                     st.subheader("Response is generated:")
                     return response.text
@@ -156,3 +156,4 @@ def show_carrier():
     else:
         st.warning("You must log in first.")
     
+
